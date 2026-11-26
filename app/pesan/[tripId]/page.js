@@ -81,10 +81,16 @@ export default function PesanKursi() {
         
         {/* Bagian Depan */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: '8px', marginBottom: '20px' }}>
-          <div style={{ gridColumn: 'span 1', border: '2px solid #333', borderRadius: '6px', padding: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '48px', backgroundColor: 'white' }}>HELPER</div>
-          <div style={{ gridColumn: 'span 2', border: '2px solid #333', borderRadius: '6px', padding: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '48px', backgroundColor: 'white' }}>PANITIA</div>
+          <div style={{ gridColumn: 'span 1', border: '2px solid #333', borderRadius: '6px', padding: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '48px', backgroundColor: 'white', textAlign: 'center' }}>
+            Co. DRIVER
+          </div>
+          <div style={{ gridColumn: 'span 2', border: '2px solid #333', borderRadius: '6px', padding: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '48px', backgroundColor: 'white', textAlign: 'center' }}>
+            TL
+          </div>
           <div style={{ gridColumn: 'span 1' }}></div> {/* Lorong */}
-          <div style={{ gridColumn: 'span 2', border: '2px solid #333', borderRadius: '6px', padding: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '48px', backgroundColor: 'white' }}>DRIVER</div>
+          <div style={{ gridColumn: 'span 2', border: '2px solid #333', borderRadius: '6px', padding: '4px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '48px', backgroundColor: 'white', textAlign: 'center' }}>
+            DRIVER
+          </div>
         </div>
 
         {/* Bagian Kursi Penumpang */}

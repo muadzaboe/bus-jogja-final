@@ -15,21 +15,30 @@ export default async function DaftarTrip() {
       minHeight: '100vh', 
       padding: '20px',
       fontFamily: 'sans-serif',
-      backgroundColor: '#f3f4f6' // Warna latar abu-abu muda agar tombol menonjol
+      backgroundColor: '#ffffff' 
     }}>
       
-      {/* Bagian Judul */}
-      <h1 style={{ fontSize: '32px', fontWeight: 'bold', marginBottom: '8px', textAlign: 'center', color: '#111827' }}>
-        MK Tour & Wisata
-      </h1>
+      {/* Bagian Logo & Judul */}
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '8px', width: '100%', maxWidth: '350px' }}>
+        
+        <img 
+          src="/logo.png" 
+          alt="Logo MK Tour" 
+          style={{ width: '100%', maxHeight: '80px', objectFit: 'contain', marginBottom: '16px' }} 
+        />
+        
+        <h1 style={{ fontSize: '32px', fontWeight: 'bold', color: '#111827', margin: 0, textAlign: 'center' }}>
+          MK Tour & Wisata
+        </h1>
+      </div>
       
-      {/* Bagian Sub-Judul (Rute & Tanggal) */}
-      <p style={{ fontSize: '16px', color: '#4b5563', marginBottom: '24px', textAlign: 'center' }}>
+      {/* Bagian Sub-Judul (Rute & Tanggal) - Jarak dirapatkan */}
+      <p style={{ fontSize: '16px', color: '#4b5563', marginTop: '4px', marginBottom: '0', textAlign: 'center' }}>
         Ambal - Jogja · 05 November 2026
       </p>
 
-      {/* Instruksi */}
-      <p style={{ fontSize: '16px', fontWeight: '500', marginBottom: '20px', textAlign: 'center' }}>
+      {/* Instruksi - Jarak dirapatkan (hanya 1 enter dari atas) */}
+      <p style={{ fontSize: '16px', fontWeight: '500', marginTop: '8px', marginBottom: '24px', textAlign: 'center' }}>
         Silakan Pilih Bis dan Kursi Anda
       </p>
 
